@@ -3,3 +3,5 @@ qt widgets detect the actions of mouse events and keyboard events when it is min
 
 
 load ths DLL，copy the HOOK/(Debug|Release)/HOOK.dll to the same directory of Qt executable file.
+
+used in 7ZipFileManager https://github.com/dragonfly1208/7ZipFileManager.git

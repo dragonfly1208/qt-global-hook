@@ -2,11 +2,13 @@
 #define WIDGET_H
 
 #include <QWidget>
+#include <Windows.h>
+//#include <windef.h>
 
 namespace Ui {
 class Widget;
 }
-
+//class POINT;
 class Widget : public QWidget
 {
     Q_OBJECT
@@ -16,6 +18,7 @@ public:
     ~Widget();
 
     bool setGlobalHook(bool b);
+    QString getExplorerPath(POINT point);
 
 signals:
     void mousekeyboardAction();
