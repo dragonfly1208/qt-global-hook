@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MouseKeyboardHook.h">
+    <ClInclude Include="Hook.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MouseKeyboardHook.cpp">
+    <ClCompile Include="Hook.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -11,8 +11,8 @@
 
 #include <Windows.h>
 
-extern "C" MOUSEKEYBOARDHOOK_API int SetHook(HWND main, unsigned int mouseKey);
-extern "C" MOUSEKEYBOARDHOOK_API int UnSetHook(unsigned int mouseKey);
+extern "C" MOUSEKEYBOARDHOOK_API int SetHook(HWND main);
+extern "C" MOUSEKEYBOARDHOOK_API int UnSetHook();
 
 
 #endif //MOUSEKEYBOARDHOOK
